@@ -194,6 +194,39 @@ BackendMenuHelper::clearCache();
 - `allowActions` (array): 允许访问的路由列表（白名单）
 - `backendPrefixes` (array): 后台路由前缀，默认 `['/backend', '/rbac']`
 
+
+## 截图（Screenshots）
+
+### RBAC 管理面板
+
+![RBAC 管理面板](screenshot/RBAC%20管理面板%20-%20default.png)
+
+RBAC 模块的默认首页，显示管理员数量、角色数量和权限数量的统计信息。
+
+### 权限管理
+
+![权限管理](screenshot/权限管理%20-%20permission.png)
+
+权限管理页面，可以查看、创建、编辑、删除权限，以及使用"扫描权限"功能自动生成权限。
+
+### 角色管理
+
+![角色管理](screenshot/角色管理%20-%20role%20index.png)
+
+角色管理页面，可以查看、创建、编辑、删除角色。
+
+### 角色权限分配
+
+![角色权限分配](screenshot/权限设置_%20manager(管理员)%20-%20role-permission.png)
+
+为角色分配权限的页面，支持全选/取消全选功能，可以快速为角色分配多个权限。
+
+### 管理员角色分配
+
+![管理员角色分配](screenshot/角色分配_%20admin%20-%20assign.png)
+
+为管理员分配角色的页面，可以管理管理员的角色权限。
+
 ## 许可证
 
 BSD-3-Clause
