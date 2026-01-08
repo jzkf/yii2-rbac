@@ -1,0 +1,36 @@
+{
+    "name": "jzkf/yii2-rbac",
+    "description": "Yii2 RBAC Management and Access Control Module",
+    "keywords": [
+        "yii2",
+        "rbac",
+        "permission",
+        "role",
+        "access-control",
+        "admin"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/jzkf/yii2-rbac/issues",
+        "source": "https://github.com/jzkf/yii2-rbac"
+    },
+    "authors": [
+        {
+            "name": "JZKF",
+            "email": "support@jzkf.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "jzkf\\rbac\\": "src/"
+        }
+    },
+    "extra": {
+        "bootstrap": "jzkf\\rbac\\Bootstrap"
+    }
+}
