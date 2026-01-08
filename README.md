@@ -72,6 +72,7 @@ composer require jzkf/yii2-rbac
 如果需要初始化权限数据，可以运行迁移文件：
 
 ```bash
+php yii migrate/up --migrationPath=@yii/rbac/migrations
 php yii migrate --migrationPath=@vendor/jzkf/yii2-rbac/src/migrations
 ```
 

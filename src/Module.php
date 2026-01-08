@@ -20,6 +20,11 @@ class Module extends \yii\base\Module
     public $controllerNamespace = 'jzkf\rbac\controllers';
 
     /**
+     * 布局文件
+     */
+    public $layout = '@app/views/backend/layouts/main';
+
+    /**
      * 默认路由
      */
     public $defaultRoute = 'default/index';
@@ -79,9 +84,6 @@ class Module extends \yii\base\Module
     public function init()
     {
         parent::init();
-
-        // Layout 需要在应用配置中设置
-        // $this->layout = '@app/views/backend/layouts/main';
 
         // 自定义初始化代码
         $this->registerTranslations();
